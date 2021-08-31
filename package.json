@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce-product-image-zoom-lens-in-nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-image-magnify": "^2.7.4"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}

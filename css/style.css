@@ -1,0 +1,32 @@
+.body {
+  /* max-width: 1024px; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  flex: 0 0 100%;
+}
+
+.text {
+  border-left: 2px solid grey;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+@media (min-width: 415px) {
+  .body {
+    flex-direction: row;
+  }
+
+  .image {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .image {
+    flex: 0 0 33.5%;
+  }
+}
